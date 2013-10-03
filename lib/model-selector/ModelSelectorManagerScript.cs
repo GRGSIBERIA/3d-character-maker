@@ -1,19 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class ModelSelectorManagerScript : MonoBehaviour {
+namespace CMaker
+{
+	public class ObjectSelector
+	{
+		public GameObject SelectedObject { get; private set; }
 
-	GameObject[] targetModels;
+		public void SetSelectedObject(GameObject target)
+		{
+			SelectedObject = target;
+		}
 
-	// Use this for initialization
-	void Start () {
-	
+		public void UnsetSelectedObject()
+		{
+			SelectedObject = null;
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
-	
 }
