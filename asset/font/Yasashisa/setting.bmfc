@@ -2,11 +2,11 @@
 fileVersion=1
 
 # font settings
-fontName=07やさしさゴシック
+fontName=07やさしさゴシックボールド
 fontFile=
 charSet=0
-fontSize=20
-aa=1
+fontSize=24
+aa=2
 scaleH=100
 useSmoothing=1
 isBold=0
@@ -38,16 +38,16 @@ fourChnlPacked=0
 textureFormat=png
 textureCompression=0
 alphaChnl=1
-redChnl=0
-greenChnl=0
-blueChnl=0
+redChnl=4
+greenChnl=4
+blueChnl=4
 invA=0
 invR=0
 invG=0
 invB=0
 
 # outline
-outlineThickness=0
+outlineThickness=1
 
 # selected chars
 chars=32-126,160-255,710-711,713,728-733,884-885,890,894,900-906,908,910-929,931-974,1025-1036,1038-1103
