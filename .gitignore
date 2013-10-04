@@ -6,3 +6,6 @@
 *.csproj
 *.unityproj
 *.sln
+
+mmd-for-unity/
+maya-camera/
